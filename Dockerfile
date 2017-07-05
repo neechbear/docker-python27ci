@@ -6,7 +6,9 @@ RUN rpm --import http://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-7 \
 RUN yum install -y \
     git \
     numpy \
+    python-coverage \
     python-pep8 \
+    python2-pytest-cov \
     python-setupdocs \
     python-setuptools \
     rpm-build \
